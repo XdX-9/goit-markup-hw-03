@@ -90,10 +90,13 @@ a {
 .container-header {
 	display: flex;
 }
+.header-nav {
+	display: flex;
+	align-items: center;
+}
 .nav-list {
 	display: flex;
 	gap: 40px;
-	align-items: center;
 }
 .nav-link {
 	color: #2e2f42;
@@ -126,7 +129,7 @@ a {
 
 .intro {
 	background-color: #2e2f42;
-	padding: 180px 0;
+	padding: 188px 0;
 }
 .intro-title {
 	color: #fff;
@@ -136,6 +139,7 @@ a {
 	letter-spacing: 0.02em;
 	text-align: center;
 	max-width: 496px;
+	margin: 0 auto;
 }
 .intro-btn {
 	background-color: #4d5ae5;
@@ -145,12 +149,12 @@ a {
 	letter-spacing: 0.04em;
 	color: #ffffff;
 	cursor: pointer;
-	transition: none;
 	display: block;
 	min-width: 169px;
 	height: 56px;
 	border: none;
 	border-radius: 4px;
+	margin: 48px auto 0;
 }
 .intro-btn:hover,
 .intro-btn:focus {
