@@ -4,11 +4,6 @@ body {
 	background-color: #fff;
 }
 .container {
-	max-width: ;
-	padding-left: ;
-	padding-right: ;
-	margin-left: ;
-	margin-right: ;
 }
 ul,
 ol {
@@ -42,12 +37,41 @@ a {
 	color: #434455;
 }
 
+.section-image {
+	display: block;
+}
+
+.page-header {
+	border-bottom: 1px solid #e7e9fc;
+	padding: 0 15px;
+}
+
+.header-logo {
+	margin-right: 76px;
+}
+
 .header-logo .logo-part {
 	color: #2e2f42;
 }
 
 .footer-logo .logo-part {
 	color: #f4f4fd;
+}
+
+.container-header {
+	display: flex;
+	width: 1158px;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	gap: 40px;
+	padding: 24px 0;
 }
 
 .nav-link {
@@ -61,6 +85,12 @@ a {
 .contacts {
 	font-style: normal;
 }
+
+.contacts-list {
+	display: flex;
+	gap: 40px;
+}
+
 .contacts-link {
 	font-size: 16px;
 	line-height: 1.5;
