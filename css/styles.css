@@ -87,41 +87,36 @@ a {
 	color: #f4f4fd;
 }
 
-.header-nav {
+.container-header {
 	display: flex;
-	align-items: center;
 }
-
 .nav-list {
 	display: flex;
 	gap: 40px;
-	padding: 24px 0;
+	align-items: center;
 }
-
 .nav-link {
 	color: #2e2f42;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	padding: 24px 0;
 }
 
 .contacts {
 	font-style: normal;
 }
-
 .contacts-list {
 	display: flex;
 	gap: 40px;
 }
-
 .contacts-link {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -209,7 +204,9 @@ a {
 .container-name {
 	padding: 32px 0;
 	text-align: center;
-	margin: 0 0 8px 0;
+}
+.container-name h3 {
+	margin-bottom: 8px;
 }
 
 .portfolio {
@@ -250,12 +247,10 @@ a {
 	background-color: #2e2f42;
 	padding: 100px 0;
 }
-
 .footer-logo {
 	display: inline-block;
 	margin-bottom: 16px;
 }
-
 .footer-text {
 	color: #f4f4fd;
 }
