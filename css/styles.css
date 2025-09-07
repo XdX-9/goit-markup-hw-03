@@ -164,13 +164,16 @@ a {
 .services {
 	padding: 120px 0;
 }
+
 .services-list {
 	display: flex;
 	gap: 24px;
 }
-.services-list-item:first-child {
-	width: calc((100% - 72px) / 4);
+
+.services-list-item {
+	flex-basis: calc((100% - 72px) / 4);
 }
+
 .services-list-title {
 	color: #2e2f42;
 	font-weight: 500;
@@ -214,7 +217,7 @@ a {
 }
 
 .portfolio {
-	padding: 120px 0 120px 0;
+	padding: 120px 0;
 }
 .portfolio-title {
 	font-weight: 700;
@@ -232,8 +235,8 @@ a {
 	column-gap: 24px;
 	row-gap: 48px;
 }
-.portfolio-list:first-child {
-	width: calc((100% - 48px) / 3);
+.portfolio-item {
+	flex-basis: calc((100% - 48px) / 3);
 }
 .container-portfolio {
 	padding: 32px 16px;
@@ -243,7 +246,7 @@ a {
 .portfolio-subtitle {
 	margin-bottom: 8px;
 }
-.portfolio-text .section-text {
+.portfolio-text.section-text {
 	color: #434455;
 }
 
