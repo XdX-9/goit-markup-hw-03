@@ -89,6 +89,7 @@ a {
 
 .container-header {
 	display: flex;
+	align-items: center;
 }
 .header-nav {
 	display: flex;
@@ -105,10 +106,12 @@ a {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	padding: 24px 0;
+	display: block;
 }
 
 .contacts {
 	font-style: normal;
+	margin-left: auto;
 }
 .contacts-list {
 	display: flex;
@@ -259,5 +262,6 @@ a {
 	margin-bottom: 16px;
 }
 .footer-text {
+	width: 264px;
 	color: #f4f4fd;
 }
